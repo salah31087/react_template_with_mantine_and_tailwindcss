@@ -8,7 +8,23 @@ import './index.css'
 const theme = createTheme({
   fontFamily: 'inter, sans-serif',
   primaryColor: 'grape',
+  fontSmoothing: true,
+  colors: {
+    dark: [
+      '#dbdbdb',
+      '#29262a',
+      '#242021',
+      '#1f1b1c',
+      '#1a1717',
+      '#151414',
+      '#121212',
+      '#0f0d0e',
+      '#0c0b0c',
+      '#110f12',
+    ],
+  },
 });
+
 
 createRoot(document.getElementById('root')).render(
   <MantineProvider theme={theme} defaultColorScheme='dark'>
