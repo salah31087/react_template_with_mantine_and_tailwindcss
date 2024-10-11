@@ -7,7 +7,7 @@ import './index.css'
 
 const theme = createTheme({
   fontFamily: 'inter, sans-serif',
-  primaryColor: 'blue',
+  primaryColor: 'grape',
 });
 
 createRoot(document.getElementById('root')).render(
